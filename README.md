@@ -8,19 +8,19 @@ The csv input file has been added to the project resources, hence the updated lo
 ### Homework for next time
 Output in the console each line in the following format:
 
->Line 1:
-&nbsp;&nbsp;&nbsp;&nbsp;<header1>: <value1>
-&nbsp;&nbsp;&nbsp;&nbsp;<header2>: <value2>
-&nbsp;&nbsp;&nbsp;&nbsp;...
-&nbsp;&nbsp;&nbsp;&nbsp;<headerN>: <valueN>
+Line 1:
+header1: value1
+header2: value2
+...
+headerN: valueN
 Line 2:
-&nbsp;&nbsp;&nbsp;&nbsp;<header1>: <value1>
-&nbsp;&nbsp;&nbsp;&nbsp;...
+header1: value1
+...
 ...
 
 Then try and output it as a json object:
 [
-	{"<header1>":"<value1>","<header2>":"<value2>",...,"<headerN>":"<valueN>"},
+	{"header1":"value1","header2":"value2",...,"headerN":"valueN"},
 	...
-	{"<header1>":"<value1>","<header2>":"<value2>",...,"<headerN>":"<valueN>"}
+	{"header1":"value1","header2":"value2",...,"headerN":"valueN"}
 ]
