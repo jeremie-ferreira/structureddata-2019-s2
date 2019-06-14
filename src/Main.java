@@ -26,9 +26,28 @@ public class Main {
 			
 			String[] headers  = line.split(DELIMITER);
 			
-			for (String header : headers) {
-				System.out.print(header + " | ");
+			System.out.println("[");
+			reader.readLine();
+			
+			while(line != null) {
+				
+				String[] values = line.split(DELIMITER);
+				
+				System.out.print("{");
+				
+				for (int i = 0; i < headers.length; ++i) {
+					System.out.print("\"" + headers[i] + "\": \"" + values[i] + "\"");
+					if (i < headers.length - 1) {
+						System.out.print(",");
+					}
+				}
+				
+				System.out.println("},");
+				
+				line = reader.readLine();
 			}
+			
+			System.out.println("]");
 			
 			//Handling the data
 			//TODO implement this section
