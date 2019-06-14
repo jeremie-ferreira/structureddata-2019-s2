@@ -24,3 +24,10 @@ Then try and output it as a json object:
 	...
 	{"header1":"value1","header2":"value2",...,"headerN":"valueN"}
 ]
+
+## June 14
+
+### Homework for next time
+Download Talend
+Send the ppt
+
